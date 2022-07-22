@@ -1,0 +1,295 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedor--fluid {
+  width: 100%;
+  overflow-x: hidden; }
+
+@media only screen and (min-width: 855px) {
+  .padding {
+    padding: 0px 60px; }
+  .text__encabezado {
+    color: #4B4341;
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 0px) and (max-width: 854px) {
+  .padding {
+    padding: 0px 40px; }
+  .text__encabezado {
+    color: #4B4341;
+    font-size: 1.8rem; } }
+
+.cards--item {
+  margin: 0px 30px 15px 30px;
+  border: 1px solid #BA9B8E;
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.borrar-producto {
+  border: none;
+  background: none; }
+
+.btn--compra {
+  border: none;
+  border-radius: 5px;
+  background: #978984;
+  color: #ffffff;
+  padding: 4px 10px; }
+  .btn--compra:hover {
+    transition: 1s;
+    background: #4B4341;
+    color: #fffffa;
+    border: none; }
+
+.contenedor__cards {
+  display: flex;
+  justify-content: center; }
+
+.modal--header {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: calc(.3rem - 1px);
+  border-top-right-radius: calc(.3rem - 1px); }
+
+.contenedor__mensaje--item {
+  position: fixed;
+  bottom: 10rem;
+  right: 3rem;
+  z-index: 10; }
+  .contenedor__mensaje--item .mensaje--body {
+    border-radius: 10px;
+    background-color: #978984;
+    color: white;
+    padding: 5px 40px; }
+    .contenedor__mensaje--item .mensaje--body strong {
+      padding-bottom: 10px;
+      border-bottom: 2px solid white; }
+
+@media only screen and (min-width: 0px) and (max-width: 854px) {
+  .table td {
+    padding: 0.4rem !important; } }
+
+header {
+  background: #4B4341;
+  height: 100px; }
+
+.header--distribución {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+@media only screen and (min-width: 855px) {
+  .logo--img {
+    height: 80px; }
+  .btn--carrito {
+    position: fixed;
+    bottom: 50px;
+    right: 35px;
+    border: none;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 15px 25px 15px 25px;
+    background-color: #4B4341; }
+  .btn--general {
+    border: none;
+    background: none; }
+    .btn--general:hover {
+      border: none; }
+  .estilo--icon {
+    font-size: 2.5rem;
+    color: white; }
+  .cantidad--productos {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #4B4341;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 45px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center; } }
+
+@media only screen and (min-width: 0px) and (max-width: 854px) {
+  .logo--img {
+    height: 60px; }
+  .btn--carrito {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    border: none;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 14px 24px 14px 24px;
+    background-color: #4B4341; }
+  .btn--general {
+    border: none;
+    background: none; }
+    .btn--general:hover {
+      border: none; }
+  .estilo--icon {
+    font-size: 2.3rem;
+    color: white; }
+  .cantidad--productos {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    color: #4B4341;
+    background: white;
+    border-radius: 50%;
+    padding: 0px 3px;
+    position: absolute;
+    bottom: 5px;
+    right: 45px; } }
+
+@media only screen and (min-width: 855px) {
+  .foo__diplay--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .foo__separador {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #523A32;
+    opacity: 0.6; }
+  .foo__text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+    .foo__text span {
+      font-size: 1.2rem; }
+  .foo__text--encabezado {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    text-align: center; }
+  .foo__redes--icon {
+    font-size: 2.5rem;
+    text-align: center; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: white;
+      cursor: pointer; }
+  .foo__copy {
+    background: #4B4341;
+    padding: 10px; }
+    .foo__copy p {
+      color: #ffffff;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      margin: 0; } }
+
+@media only screen and (min-width: 0px) and (max-width: 854px) {
+  .foo__diplay--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .foo__separador {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #523A32;
+    opacity: 0.6; }
+  .foo__text {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+    .foo__text span {
+      font-size: 1.1rem; }
+  .foo__text--encabezado {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 20px; }
+  .foo__redes--icon {
+    font-size: 2rem;
+    text-align: center; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: #ffffff;
+      cursor: pointer; }
+  .foo__copy {
+    background: #4B4341;
+    padding: 10px; }
+    .foo__copy p {
+      color: #ffffff;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      margin: 0; } }
+
+.index--parallax {
+  background-image: url("../assets/img/parallax_vino.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 40px;
+  opacity: 0.8; }
+  .index--parallax h1 {
+    padding: 150px 50px 0px 50px;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center; }
+
+.seccion__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-image: url("../assets/img/luz_vino.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6; }
+  .seccion__info .seccion__info--items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0px 10px;
+    background: #523A32;
+    opacity: 0.8; }
+  .seccion__info .info--text {
+    opacity: 1;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center; }
+
+@media only screen and (min-width: 0px) and (max-width: 854px) {
+  .seccion__info {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-image: url("../assets/img/luz_vino.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6; }
+    .seccion__info .seccion__info--items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 50%;
+      width: 210px;
+      height: 210px;
+      margin: 5px 0px;
+      background: #523A32;
+      opacity: 0.8; }
+    .seccion__info .info--text {
+      opacity: 1;
+      color: white;
+      font-size: 1.2rem;
+      text-align: center; } }

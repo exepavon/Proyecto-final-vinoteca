@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Contenedor padre
+.contenedor--fluid {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// Vista desktop
+@media only screen and (min-width:855px) {
+    // Padding
+    .padding {
+        padding: 0px 60px;
+    }
+
+    // Encabezados
+    .text__encabezado {
+        color: #4B4341;
+        font-size: 2.5rem;
+    }
+}
+
+// Vista mobile
+@media only screen and (min-width:0px) and (max-width:854px) {
+    // Padding
+    .padding {
+        padding: 0px 40px;
+    }
+
+    // Encabezados
+    .text__encabezado {
+        color: #4B4341;
+        font-size: 1.8rem;
+    }
+}

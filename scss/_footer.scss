@@ -1,0 +1,113 @@
+// Vista desktop
+@media only screen and (min-width:855px) {
+    // Alineación footer
+    .foo__diplay--flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // Línea separadora
+    .foo__separador {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: #523A32;
+        opacity: 0.6;
+    }
+
+    // Texto pie de página
+    .foo__text {
+        color: white;
+        font-family: $fuente1;
+        text-align: center;
+        span {
+            font-size: 1.2rem;
+        }
+    }
+    .foo__text--encabezado {
+        color: white;
+        font-family: $fuente1;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    // Iconos redes sociales
+    .foo__redes--icon {
+        font-size: 2.5rem;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    // Pie de página - texto copy
+    .foo__copy {
+        background: $ironstone;
+        padding: 10px;
+        p {
+            color: $blanco;
+            font-family: $fuente1;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}
+
+// Vista mobile
+@media only screen and (min-width:0px) and (max-width:854px) {
+    // Alineación footer
+    .foo__diplay--flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    // Línea separadora
+    .foo__separador {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: #523A32;
+        opacity: 0.6;
+    }
+
+    // Texto pie de página
+    .foo__text {
+        color: $blanco;
+        font-family: $fuente1;
+        text-align: center;
+        span {
+            font-size: 1.1rem;
+        }
+    }
+    .foo__text--encabezado {
+        color: white;
+        font-family: $fuente1;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    // Iconos redes sociales
+    .foo__redes--icon {
+        font-size: 2rem;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: $blanco;
+            cursor: pointer;
+        }
+    }
+
+    // Pie de página - texto copy
+    .foo__copy {
+        background: $ironstone;
+        padding: 10px;
+        p {
+            color: $blanco;
+            font-family: $fuente1;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}

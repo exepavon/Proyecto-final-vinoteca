@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap v4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Título -->
+    <title>Vinoteca: Home</title>
+    <link rel="shortcut icon" href="assets/img/vinoteca.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Apertura contenedor padre -->
+    <div class="contenedor--fluid">
+
+
+
+        <!-- Apertura fila encabezado -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <!-- Apertura encabezado -->
+                <header class="header--distribución padding">
+                    <!-- Apertura logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/vinoteca_logo.png" alt="Vinoteca - Logo" class="logo--img">
+                    </a>
+                    <!-- Cierre logo -->
+                    <!-- Apertura menú -->
+                    <nav>
+                        <button class="btn--general">
+                            <i class="bi bi-list estilo--icon"></i>
+                        </button>
+                    </nav>
+                    <!-- Cierre menú -->
+                </header>
+                <!-- Cierre encabezado -->
+            </div>
+        </div>
+        <!-- Cierre fila encabezado -->
+
+
+
+        <!-- Apertura fila parallax -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="index--parallax">
+                    <h1>Entrega</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Cierre fila parallax -->
+
+
+
+        <!-- Apertura icon fijo (carrito) -->
+        <div>
+            <!-- Apertura carrito de compras -->
+            <button type="button" class="btn--general" data-toggle="modal" data-target="#exampleModal">
+                <i class="bi bi-bag estilo--icon btn--carrito">
+                    <strong class="cantidad--productos"> 0</strong>
+                </i>
+            </button>
+            <div id="generar__carrito--compras">
+                <!-- CARRITO DE COMPRAS -->
+            </div>
+            <!-- Cierre carrito de compras -->
+        </div>
+        <!-- Apertura icon fijo (carrito) -->
+
+
+
+        <!-- Apertura encabezado productos -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h4 class="text-center text__encabezado">Productos</h4>
+            </div>
+        </div><br>
+        <!-- Cierre encabezado productos -->
+
+
+
+        <!-- Apertura cards productos -->
+        <div class="padding contenedor__cards">
+            <div id="contenedor__cards--item" class="card-columns">
+                <!-- ITEMS CARDS -->
+            </div>
+        </div><br>
+        <!-- Cierre cards productos -->
+
+
+
+        <!-- Apertura sección información -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="padding seccion__info">
+                    <div class="seccion__info--items">
+                        <span class="info--text">Envió gratis en CABA</span>
+                    </div>
+                    <div class="seccion__info--items">
+                        <span class="info--text">10% off con transferencia</span>
+                    </div>
+                    <div class="seccion__info--items">
+                        <span class="info--text">Venta mayorista y minorista</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cierre sección información -->
+
+
+
+        <!-- Apertura fila pie de página -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="foo__diplay--flex foo__separador padding">
+                    <!-- LOGO -->
+                    <a class="align-items-center" href="#">
+                        <img src="assets/img/vinoteca_logo.png" alt="Logo - Vinoteca">
+                    </a>
+                    <!-- Contactos -->
+                    <div>
+                        <h6 class="foo__text--encabezado text-uppercase">Sigamos conectados</h6>
+                        <ul class="nav align-items-center">
+                            <li class="nav-item">
+                                <span class="foo__text px-2">11 8541 5874</span>
+                            </li>
+                            <li class="nav-item">
+                                <span class="foo__text px-2">vinoteca@gmail.com</span>
+                            </li>
+                        </ul>
+                        <!-- Apertura redes sociales -->
+                        <div class="foo__redes--icon d-flex justify-content-center">
+                            <ul class="nav align-items-center">
+                                <li class="nav-item">
+                                    <!-- Whatsapp -->
+                                    <a target="_blank" href="https://web.whatsapp.com/" class="transicionWA nav-link">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- Instagram -->
+                                    <a target="_blank" href="https://www.instagram.com/" class="transicionIG nav-link">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- Facebook -->
+                                    <a target="_blank" href="https://www.facebook.com/" class="transicionFB nav-link">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Cierre redes sociales -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cierre fila pie de página -->
+
+
+
+        <!-- Apertura  fila texto copy -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <footer class="foo__copy">
+                    <!-- Texto copy -->
+                    <p>Copyright&copy; Vinoteca, todos los derechos reservados.</p>
+                    <!-- Autor -->
+                    
+                </footer>
+            </div>
+        </div>
+        <!-- Cierre fila texto copy -->
+
+
+
+    </div>
+    <!-- Cierre contenedor padre -->
+
+<!-- Bootstrap v4.6 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+<!-- JS propio -->
+<script src="js/principal.js"></script>
+<script src="js/index.js"></script>
+<script src="js/funciones.js"></script>
+
+</body>
+</html>

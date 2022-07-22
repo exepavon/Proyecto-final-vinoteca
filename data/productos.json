@@ -1,0 +1,44 @@
+[
+    {
+    "id": 1,
+    "nombre": "Malbec",
+    "precio": 200,
+    "img": "./assets/img/vinos/v_6.jpg",
+    "stock": 20
+    },
+    {
+    "id": 2,
+    "nombre": "Sauvignon",
+    "precio": 300,
+    "img": "./assets/img/vinos/v_2.jpg",
+    "stock": 15
+    },
+    {
+    "id": 3,
+    "nombre": "Cabernet",
+    "precio": 250,
+    "img": "./assets/img/vinos/v_3.jpg",
+    "stock": 20
+    },
+    {
+    "id": 4,
+    "nombre": "Pinot",
+    "precio": 400,
+    "img": "./assets/img/vinos/v_4.jpg",
+    "stock": 30
+    },
+    {
+    "id": 5,
+    "nombre": "Torrontés",
+    "precio": 500,
+    "img": "./assets/img/vinos/v_5.jpg",
+    "stock": 20
+    },
+    {
+    "id": 6,
+    "nombre": "Chardonnay",
+    "precio": 450,
+    "img": "./assets/img/vinos/v_1.jpg",
+    "stock": 10
+    }
+]

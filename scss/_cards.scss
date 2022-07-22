@@ -1,0 +1,68 @@
+// Cards
+.cards--item {
+    margin: 0px 30px 15px 30px;
+    border: 1px solid $arena;
+    border-radius: 10px;
+    max-width: 250px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+// Boton borrar
+.borrar-producto {
+    border: none;
+    background: none;
+}
+// Boton realizar compra
+.btn--compra {
+    border: none;
+    border-radius: 5px;
+    background: $grisFuscous;
+    color: $blanco;
+    padding: 4px 10px;
+    &:hover {
+        transition: 1s;
+        background: $ironstone;
+        color: #fffffa;
+        border: none;
+    }
+}
+
+// Contenedor cards
+.contenedor__cards {
+    display: flex;
+    justify-content: center;
+}
+
+// Modal
+.modal--header {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+// Mensaje productos agregador al carrito
+.contenedor__mensaje--item {
+    position: fixed;
+    bottom: 10rem;
+    right: 3rem;
+    z-index: 10;
+    .mensaje--body{
+        border-radius: 10px;
+        background-color: $grisFuscous;
+        color: white;
+        padding: 5px 40px;
+        strong {
+            padding-bottom: 10px;
+            border-bottom: 2px solid white;
+        }
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:854px) {
+    .table td {
+        padding: 0.4rem !important;
+    }
+}
